@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+}
+
+header nav {
+    margin-top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ff5733;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.produto img {
+    width: 200px;  /* Ajuste para o tamanho desejado */
+    height: auto;  /* A altura será ajustada proporcionalmente */
+}
+
+
+.linha-produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.produto {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c14e28;
+}
+
+.social-links a {
+    color: #ff5733;
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #c14e28;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .produto {
+        width: 100%; /* Ocupa 100% da largura em telas pequenas */
+    }
+    .linha-produtos {
+        flex-direction: column; /* Organiza os produtos verticalmente */
+    }
+}

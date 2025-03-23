@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choze Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choze Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Destaques da Loja</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="imagens/camiseta.jpeg" alt="Camiseta Choze">
+                <h3>Camiseta Choze</h3>
+                <p>R$ 79,90</p>
+                <button onclick="adicionarAoCarrinho('Camiseta Choze - Branca', 79.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/bone.jpeg" alt="Boné Choze">
+                <h3>Boné Choze</h3>
+                <p>R$ 59,90</p>
+                <button onclick="adicionarAoCarrinho('Boné Choze', 59.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/calca.jpeg" alt="Calça Choze">
+                <h3>Calça Jeans Choze</h3>
+                <p>R$ 129,90</p>
+                <button onclick="adicionarAoCarrinho('Calça Choze - Jeans', 129.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/chaveiro.jpeg" alt="Chaveiro Choze">
+                <h3>Chaveiro Choze</h3>
+                <p>R$ 19,90</p>
+                <button onclick="adicionarAoCarrinho('Chaveiro Choze', 19.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/cd.jpeg" alt="Disco Vinil Choze">
+                <h3>Disco Vinil Choze - Áudio Exclusivo</h3>
+                <p>R$ 39,90</p>
+                <button onclick="adicionarAoCarrinho('Disco Vinil Choze - Áudio Exclusivo', 39.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/isqueiro.jpeg" alt="Isqueiro Choze">
+                <h3>Isqueiro Choze</h3>
+                <p>R$ 29,90</p>
+                <button onclick="adicionarAoCarrinho('Isqueiro Choze', 29.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Choze. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
